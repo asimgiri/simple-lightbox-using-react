@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #36363c;
+}
+
+.lightbox_wrapper {
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+.lightbox_wrapper ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 8px 5px 0;
+}
+
+.lightbox_wrapper ul li img {
+  width: 93px;
+  height: 93px;
+  transition: .2s ease-out;
+}
+
+.lightbox_wrapper ul li img:hover {
+  transform: scale(1.04);
+}
+
+.lightbox_wrapper img {
+  border-radius: .25rem;
+  cursor: pointer;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .32), 0 8px 13px rgba(0, 0, 0, .54);
+}
